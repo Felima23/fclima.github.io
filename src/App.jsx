@@ -7,10 +7,10 @@ function App(){
     return(
         <BrowserRouter basename="/fclima.github.io">
             <Routes>
-                <Route path="/<fclima.github.io>" element={<Home/>}/>
-                <Route path="/sobre<fclima.github.io>" element={<About/>}/>
-                <Route path="/projetos<fclima.github.io>" element={<Projects/>}/>
-            </Routes>        
+                <Route path="/" element={<Home />} />
+                <Route path="/sobre" element={<About />} />
+                <Route path="/projetos" element={<Projects />} />
+            </Routes>
         </BrowserRouter>
     )
 }
