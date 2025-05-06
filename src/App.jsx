@@ -7,9 +7,9 @@ function App(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route path='/' element={<Home/>}/>
-                <Route path='/sobre' element={<About/>}/>
-                <Route path='/projetos' element={<Projects/>}/>
+                <Route path='/<fclima.github.io>' element={<Home/>}/>
+                <Route path='/sobre<fclima.github.io>' element={<About/>}/>
+                <Route path='/projetos<fclima.github.io>' element={<Projects/>}/>
             </Routes>        
         </BrowserRouter>
     )
