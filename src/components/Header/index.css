@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 3px #0000000b;
+}
+/* Estilo HEADER */
+.header-container{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+.div-nav ul{
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+}
+/* Estilo HEADER */
+
+
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .div-nav ul {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .div-btn-contato {
+        margin-top: 10px;
+    }
+}
