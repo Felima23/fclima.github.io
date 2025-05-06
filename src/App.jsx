@@ -5,7 +5,7 @@ import Projects from "./pages/Projects"
 
 function App(){
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/fclima.github.io">
             <Routes>
                 <Route path="/fclima.github.io/" element={<Home/>}/>
                 <Route path="/fclima.github.io/sobre" element={<About/>}/>
